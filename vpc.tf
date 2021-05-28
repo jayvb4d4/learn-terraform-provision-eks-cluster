@@ -1,13 +1,13 @@
-#terraform {
-#  backend "remote" {
-#    hostname     = "app.terraform.io"
-#    organization = "nellster4"
+terraform {
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "nellster4"
 
-#    workspaces {
-#      name = "mtc-aws"
-#    }
-#  }
-#}
+    workspaces {
+      name = "learn-terraform-provision-eks-cluster"
+    }
+  }
+}
 
 variable "region" {
   default     = "us-east-2"
