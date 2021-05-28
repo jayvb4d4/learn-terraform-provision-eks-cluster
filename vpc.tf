@@ -1,6 +1,5 @@
 terraform {
   backend "remote" {
-    hostname     = "app.terraform.io"
     organization = "nellster4"
 
     workspaces {
